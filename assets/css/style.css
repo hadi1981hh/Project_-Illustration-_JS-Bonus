@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+.bady {
+    margin: 0 auto;
+    font-family: 'Merriweather', serif;
+}
+
+.body[class="dark"] {
+    --bodyBg: #000;
+    --bodyColor: #fff;
+    --downloadContain: #089be4;
+    --aLight: url(../img/darkmode/darkmode-img1.png) right/contain no-repeat;
+    --realBeautyBg: url(../img/darkmode/darkmode-img2.png) left/contain no-repeat;
+    --expressivenessBg: url(../img/darkmode/darkmode-img3.png) right/contain no-repeat;
+    --btnBg: #fff;
+    --btnColor: #202020;
+}
+
+#menu {
+    list-style-type: none;
+    margin: 0;
+    float: right;
+    padding: 0;
+}
+
+#menu>ul>li {
+    float: right;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 2px 5px;
+    height: 5px;
+    line-height: 10px;
+    text-decoration: none;
+    color: #000;
+}
+
+.Light div img {
+    width: 30%;
+    height: 30%;
+    position: relative;
+    left: 65%;
+    bottom: 0%;
+}
+
+.bild1 h1:nth-of-type(1) {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    position: absolute;
+    top: 12%;
+    left: 12%;
+}
+
+.bild1 h1:nth-of-type(2) {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    position: absolute;
+    top: 20%;
+    left: 12%;
+}
+
+.bild1 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    right: 52%;
+    bottom: 46%;
+    left: 12%;
+}
+
+.button {
+    padding-left: 300px;
+    font-family: 'Lato', sans-serif;
+}
+
+#down {
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+}
+
+#subs {
+    height: 50px;
+    font-family: 'Lato', sans-serif;
+    border-radius: 10px;
+}
+
+.fish div img {
+    width: 30%;
+    height: 30%;
+    position: relative;
+    left: 10%;
+    bottom: 0%;
+}
+
+.bild2 h1:nth-of-type(1) {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    position: absolute;
+    top: 100%;
+    right: 15%;
+}
+
+.bild2 h1:nth-of-type(2) {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    position: absolute;
+    top: 90%;
+    right: 21%;
+}
+
+.bild2 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 52%;
+    bottom: -35%;
+    right: 10%;
+}
+
+.bird div img {
+    width: 30%;
+    height: 30%;
+    position: relative;
+    left: 65%;
+    bottom: 0%;
+}
+
+.bild3 h1:nth-of-type(1) {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    position: absolute;
+    top: 190%;
+    left: 10%;
+}
+
+.bild3 h1:nth-of-type(2) {
+    font-family: 'Playfair Display', serif;
+    font-size: 60px;
+    position: absolute;
+    top: 200%;
+    left: 10%;
+}
+
+.bild3 p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    position: absolute;
+    right: 52%;
+    bottom: -135%;
+    left: 10%;
+}
+
+/* 4 */
+
+.title {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px;
+    font-family: 'Merriweather', serif;
+}
+
+.explanation {
+    text-align: center;
+    padding-right: 100px;
+    line-height: 30px;
+    font-family: 'Merriweather', serif;
+}
+
+#photos img {
+    height: 400px;
+    width: 400px;
+    font-family: 'Merriweather', serif;
+}
+
+.img1 {
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+#photos img:hover {
+    box-shadow: #aca9a9 5px 5px 5px;
+}
+
+/* 5 */
+
+.of {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 150px;
+    font-family: 'Merriweather', serif;
+}
+
+.each {
+    text-align: center;
+    padding-right: 50px;
+    line-height: 25px;
+    font-family: 'Merriweather', serif;
+}
+
+#img img {
+    height: 300px;
+    width: 500px;
+    padding: 50px;
+}
+
+.img7 {
+    margin-left: 100px;
+}
+
+.img9 {
+    margin-left: 100px;
+}
+
+.img11 {
+    margin-left: 100px;
+}
+
+#box {
+    background-color: #eef4f8;
+    height: 510px;
+    width: 300px;
+    margin-left: 570px;
+}
+
+.membership {
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+    font-family: 'Merriweather', serif
+}
+
+.price {
+    font-size: 50px;
+    text-align: center;
+}
+
+.year {
+    font-size: 20px;
+    color: #817e7e;
+    padding-left: 120px;
+}
+
+.link {
+    text-align: center;
+    font-size: 13px;
+    padding-left: 20px;
+    line-height: 25px;
+    padding-bottom: 20px;
+    ;
+}
+
+#member {
+    padding-left: px;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: #0686b1 solid 1px;
+    background-color: #24bff2;
+    color: #fff;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+.any {
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Merriweather', serif;
+}
+
+.addresa a p {
+    padding-left: 690px;
+    font-family: 'Merriweather', serif;
+}
+
+#email {
+    font-size: 12px;
+    color: #b1a9a9;
+    padding-left: 690px;
+    font-family: 'Merriweather', serif;
+}
+
+#super {
+    font-size: 12px;
+    color: #080000;
+    padding-left: 660px;
+    font-family: 'Merriweather', serif;
+}
+
+#follow {
+    font-size: 12px;
+    color: #b1a9a9;
+    padding-left: 680px;
+    font-family: 'Merriweather', serif;
+}
+
+.list {
+    text-align: center;
+    margin: 0;
+    display: inline;
+    font-family: 'Merriweather', serif;
+    float: none;
+}
+
+.div ul li {
+    display: inline-block;
+}
+
+body {
+    padding: 25px;
+    background-color: white;
+    color: black;
+    font-size: 25px;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
